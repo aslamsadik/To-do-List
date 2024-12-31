@@ -1,0 +1,57 @@
+
+.header{
+    margin-left: 42%;
+}
+.body {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tasks {
+    margin-bottom: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .task-item span {
+    margin-left: 10px;
+  }
+  
+  .task-item .completed-task {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .insert_button,
+  .delete_button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .insert_button:hover,
+  .delete_button:hover {
+    background-color: #0056b3;
+  }
+  
