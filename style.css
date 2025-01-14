@@ -1,4 +1,14 @@
 
+body {
+  background-image: url('https://plus.unsplash.com/premium_photo-1683309563562-aa3cfde9ed10?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9kbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D'); /* Set your image path */
+  background-size: cover; /* Make the image cover the entire page */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the image */
+  height: 100vh; /* Set the height to fill the viewport */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Optional: Set a font style */
+}
+
 .header{
     margin-left: 42%;
 }
@@ -14,7 +24,9 @@
   .tasks {
     margin-bottom: 20px;
   }
-  
+  .message{
+    margin-left: 210px;
+  }
   .task-item {
     display: flex;
     align-items: center;
